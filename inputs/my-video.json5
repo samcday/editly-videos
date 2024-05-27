@@ -8,6 +8,11 @@
   },
   audioFilePath: './music.m4a',
   clips: [
+    { duration: 3, transition: { name: 'directional-left' }, layers: [{ type: 'title-background', text: 'samcday says hi\nEDITLY\nVideo editing framework', background: { type: 'linear-gradient', colors: ['#02aab0', '#00cdac'] } }] },
+    { duration: 4, transition: { name: 'dreamyzoom' }, layers: [{ type: 'title-background', text: 'Multi-line text with animated linear or radial gradients', background: { type: 'radial-gradient' } }] },
+    { duration: 3, transition: { name: 'directional-right' }, layers: [{ type: 'rainbow-colors' }, { type: 'title', text: 'Colorful backgrounds' }] },
+    { duration: 3, layers: [{ type: 'pause' }, { type: 'title', text: 'and separators' }] },
+
     { layers: [{ type: 'image', path: 'https://picsum.photos/400/400' }] },
     { duration: 1, layers: [{ type: 'linear-gradient', colors: ['#02aab0', '#00cdac'] }] },
     { duration: 1, layers: [{ type: 'radial-gradient', colors: ['#b002aa', '#ac00cd'] }] },
